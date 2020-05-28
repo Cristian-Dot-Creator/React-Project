@@ -1,0 +1,31 @@
+@import 'hero';
+@import 'header';
+@import 'media';
+@import 'animations';
+@import 'previewSquares';
+@import 'slideshow';
+@import 'footer';
+@import 'popup';
+@import 'mixins';
+@import 'helper';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family:sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+
+    p {
+        margin: 1rem 0;
+    }
+
+}
